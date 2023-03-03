@@ -1,0 +1,23 @@
+root@9d8342bf8950:/# mkdir alx-pre_course
+root@9d8342bf8950:/# cd alx-pre_course
+root@9d8342bf8950:/alx-pre_course# ls
+root@9d8342bf8950:/alx-pre_course# mkdir 0x01-git
+root@9d8342bf8950:/alx-pre_course# echo 'My first readme' > README.md
+root@9d8342bf8950:/alx-pre_course# cat README.md
+My first readme
+root@9d8342bf8950:/alx-pre_course# cd 0x01-git
+root@9d8342bf8950:/alx-pre_course/0x01-git# echo 'My first readme' > README.md
+root@9d8342bf8950:/alx-pre_course/0x01-git# cat README.md
+My first readme
+root@9d8342bf8950:/alx-pre_course/0x01-git# cd ..
+root@9d8342bf8950:/alx-pre_course# git clone https://{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}@github.com/sondos2811/alx-pre_course.git
+Cloning into 'alx-pre_course'...
+warning: You appear to have cloned an empty repository.
+root@9d8342bf8950:/alx-pre_course# git add .
+error: 'alx-pre_course/alx-pre_course/' does not have a commit checked out
+fatal: adding files failed
+root@9d8342bf8950:/alx-pre_course# git config --global user.email "sondoshossam029@gmail.com"
+root@9d8342bf8950:/alx-pre_course# git config --global user.name "sondos2811"
+root@9d8342bf8950:/alx-pre_course# git add .
+error: 'alx-pre_course/alx-pre_course/' does not have a commit checked out
+fatal: adding files failed
